@@ -9,11 +9,9 @@
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
-}
-
-.btn:focus,
-.delete-btn:focus {
-  outline: 0;
+  & :focus {
+    outline: 0;
+  }
 }
 
 .delete-btn {
@@ -30,4 +28,7 @@
   transform: translate(-100%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  & :focus {
+    outline: 0;
+  }
 }
