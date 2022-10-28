@@ -5,7 +5,7 @@
 
   & li {
     background-color: #fff;
-    box-shadow: var(--box-shadow);
+    box-shadow: $box-shadow;
     color: #333;
     display: flex;
     justify-content: space-between;
@@ -15,11 +15,11 @@
   }
   
   & li.plus {
-    border-right: 5px solid #2ecc71;
+    border-right: 5px solid $plus;
   }
   
   & li.minus {
-    border-right: 5px solid #c0392b;
+    border-right: 5px solid $minus;
   }
   
   & li:hover .delete-btn {
